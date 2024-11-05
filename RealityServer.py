@@ -1,4 +1,4 @@
-# Main entry point for RealityServer back end - test of the web hook 4
+# Main entry point for RealityServer back end
 
 import os    
 import time
