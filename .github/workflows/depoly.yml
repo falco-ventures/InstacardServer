@@ -23,8 +23,8 @@ jobs:
                     host: ${{ secrets.IC_HOST }}
                     port: ${{ secrets.IC_PORT }}
                     username: ${{ secrets.IC_USERNAME }}
-                    password: ${{ secrets.IC_PASSWORD }}
                     private_key: ${{ secrets.IC_PRIVATE_KEY }}
+                    passphrase: ${{ secrets.IC_PASSWORD }}
 
                     script: |
                         cd ~/instacardapi1/python
